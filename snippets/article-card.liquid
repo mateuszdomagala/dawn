@@ -83,8 +83,8 @@
                 {{ article.title | truncate: 50 | escape }}
               </a>
             </h3>
+            <div>{{ article.tags }}</div>
             <div class="article-card__info caption-with-letter-spacing h5">
-              <p>{{ article.tags }}</p>
               {%- if show_tags -%}
                 {{ article.tags }}
               {%- endif -%}
