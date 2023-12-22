@@ -93,6 +93,7 @@
               {%- if show_author -%}
                 <span>{{ article.author }}</span>
               {%- endif -%}
+              <p>{{ article.tags }}</p>
             </div>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
