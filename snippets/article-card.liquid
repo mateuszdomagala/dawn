@@ -133,8 +133,8 @@
             {%- if show_author -%}
               <span>{{ article.author }}</span>
             {%- endif -%}
-              <span>{{ article.tags }}</span>
           </div>
+           <span>{{ article.tags }}</span>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
